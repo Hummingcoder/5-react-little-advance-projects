@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
 import { MdDelete } from "react-icons/md";
-import { QuoteContext } from "../data/dataContext";
 const Bookmarks = () => {
   const [data, setdata] = useState([]);
 
